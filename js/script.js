@@ -169,4 +169,12 @@ document.addEventListener('DOMContentLoaded', () => {
     window.addEventListener('scroll', handleHeaderScroll, { passive: true });
     handleHeaderScroll();
 
+    // 9. PREVENT DISABLED LINKS FROM NAVIGATING
+    document.querySelectorAll('.disabled-link').forEach(link => {
+        link.addEventListener('click', (e) => {
+            e.preventDefault();
+            return false;
+        });
+    });
+
 });

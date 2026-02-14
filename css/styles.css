@@ -844,6 +844,11 @@ h6 {
     font-size: var(--fs-xs);
 }
 
+/* Disabled link style - prevents navigation but keeps animations */
+.disabled-link {
+    cursor: default;
+}
+
 /* ==========================================================
    11. FOOTER
    ========================================================== */
