@@ -2,8 +2,6 @@
 
 A responsive, modern personal portfolio web application built with **HTML5**, **CSS3**, and **vanilla JavaScript** as part of SWE363 (Web Engineering) Assignment 1 at KFUPM.
 
-![Portfolio Preview](assets/images/preview.png)
-
 ---
 
 ## 🚀 Features
